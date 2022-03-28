@@ -5,7 +5,7 @@ An react implementation of carousel.
 Use this component like this, set delay time and content of carousel (array of html node):
 ```
 import React, { Component } from 'react';
-import Info from 'Info';
+import Carousel from 'Carousel';
 
 class App extends Component {
   constructor() {
@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   render() {
-    return <Info delay={this.delay}>{this.children}</Info>;
+    return <Carousel delay={this.delay}>{this.children}</Info>;
   }
 }
 
