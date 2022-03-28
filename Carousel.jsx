@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Info extends React.Component {
+class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = { currentNodeIndex: 0 };
@@ -63,7 +63,7 @@ class Info extends React.Component {
   }
 }
 
-Info.propTypes = {
+Carousel.propTypes = {
   delay: PropTypes.number.isRequired,
   children: PropTypes.array.isRequired,
 };
