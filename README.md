@@ -2,7 +2,7 @@
 
 An react implementation of carousel.
 
-Use this component like this, set delay time and rendered html node:
+Use this component like this, set delay time and content of carousel (array of html node):
 ```
 import React, { Component } from 'react';
 import Info from 'Info';
